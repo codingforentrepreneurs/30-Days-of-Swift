@@ -16,7 +16,7 @@ func giveUsBool() -> Bool {
 
 var aBool = giveUsBool()
 
-aBool
+aBool = false
 
 func helloName(name:String) -> String {
     return "Hello \(name)"
@@ -33,12 +33,13 @@ if aBool {
 println(theName)
 
 func giveUsResults(name:String, theBool: Bool) -> (String, Bool) {
+    var theNewName = name
     if theBool {
-        var theName = helloName(name)
+        theNewName = helloName(name)
     } else {
-        var theName = helloName("Unknown")
+        theNewName = helloName("Unknown")
     }
-    return ("\(theName) and \(theBool)", theBool)
+    return ("\(theNewName) and \(theBool)", theBool)
 }
 
 var (myName, isTrue) = giveUsResults("Justin", true)
