@@ -74,6 +74,8 @@ class Dog:Animal {
         return self.dogColor
     }
     
+    var animal = Animal(setHairType: "blue")
+    
 }
 
 var dog = Dog(setHairType: "Long")
