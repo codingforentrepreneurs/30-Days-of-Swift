@@ -1,15 +1,15 @@
 //
-//  Day_19___AlamofireTests.swift
-//  Day 19 - AlamofireTests
+//  Day_19_Rounded_Image_ButtonTests.swift
+//  Day-19-Rounded-Image-ButtonTests
 //
-//  Created by Justin Mitchel on 11/24/14.
+//  Created by Justin Mitchel on 11/25/14.
 //  Copyright (c) 2014 Coding For Entrepreneurs. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class Day_19___AlamofireTests: XCTestCase {
+class Day_19_Rounded_Image_ButtonTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

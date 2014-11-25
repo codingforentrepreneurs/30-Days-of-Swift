@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Day 19 - Alamofire.xcscheme</key>
+		<key>Day-19-Rounded-Image-Button.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0FD4A60F1A24051A00549475</key>
+		<key>0FD4A67C1A252BFB00549475</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0FD4A6241A24051B00549475</key>
+		<key>0FD4A6911A252BFB00549475</key>
 		<dict>
 			<key>primary</key>
 			<true/>

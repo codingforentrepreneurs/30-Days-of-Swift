@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0FD4A60F1A24051A00549475"
-               BuildableName = "Day 19 - Alamofire.app"
-               BlueprintName = "Day 19 - Alamofire"
-               ReferencedContainer = "container:Day 19 - Alamofire.xcodeproj">
+               BlueprintIdentifier = "0FD4A67C1A252BFB00549475"
+               BuildableName = "Day-19-Rounded-Image-Button.app"
+               BlueprintName = "Day-19-Rounded-Image-Button"
+               ReferencedContainer = "container:Day-19-Rounded-Image-Button.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0FD4A6241A24051B00549475"
-               BuildableName = "Day 19 - AlamofireTests.xctest"
-               BlueprintName = "Day 19 - AlamofireTests"
-               ReferencedContainer = "container:Day 19 - Alamofire.xcodeproj">
+               BlueprintIdentifier = "0FD4A6911A252BFB00549475"
+               BuildableName = "Day-19-Rounded-Image-ButtonTests.xctest"
+               BlueprintName = "Day-19-Rounded-Image-ButtonTests"
+               ReferencedContainer = "container:Day-19-Rounded-Image-Button.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0FD4A6241A24051B00549475"
-               BuildableName = "Day 19 - AlamofireTests.xctest"
-               BlueprintName = "Day 19 - AlamofireTests"
-               ReferencedContainer = "container:Day 19 - Alamofire.xcodeproj">
+               BlueprintIdentifier = "0FD4A6911A252BFB00549475"
+               BuildableName = "Day-19-Rounded-Image-ButtonTests.xctest"
+               BlueprintName = "Day-19-Rounded-Image-ButtonTests"
+               ReferencedContainer = "container:Day-19-Rounded-Image-Button.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0FD4A60F1A24051A00549475"
-            BuildableName = "Day 19 - Alamofire.app"
-            BlueprintName = "Day 19 - Alamofire"
-            ReferencedContainer = "container:Day 19 - Alamofire.xcodeproj">
+            BlueprintIdentifier = "0FD4A67C1A252BFB00549475"
+            BuildableName = "Day-19-Rounded-Image-Button.app"
+            BlueprintName = "Day-19-Rounded-Image-Button"
+            ReferencedContainer = "container:Day-19-Rounded-Image-Button.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0FD4A60F1A24051A00549475"
-            BuildableName = "Day 19 - Alamofire.app"
-            BlueprintName = "Day 19 - Alamofire"
-            ReferencedContainer = "container:Day 19 - Alamofire.xcodeproj">
+            BlueprintIdentifier = "0FD4A67C1A252BFB00549475"
+            BuildableName = "Day-19-Rounded-Image-Button.app"
+            BlueprintName = "Day-19-Rounded-Image-Button"
+            ReferencedContainer = "container:Day-19-Rounded-Image-Button.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0FD4A60F1A24051A00549475"
-            BuildableName = "Day 19 - Alamofire.app"
-            BlueprintName = "Day 19 - Alamofire"
-            ReferencedContainer = "container:Day 19 - Alamofire.xcodeproj">
+            BlueprintIdentifier = "0FD4A67C1A252BFB00549475"
+            BuildableName = "Day-19-Rounded-Image-Button.app"
+            BlueprintName = "Day-19-Rounded-Image-Button"
+            ReferencedContainer = "container:Day-19-Rounded-Image-Button.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
