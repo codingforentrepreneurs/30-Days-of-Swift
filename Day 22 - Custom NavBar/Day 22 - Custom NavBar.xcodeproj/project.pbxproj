@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F7FF1EA1A29343B002F83A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FF1E91A29343B002F83A7 /* AppDelegate.swift */; };
+		0F7FF1EC1A29343B002F83A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FF1EB1A29343B002F83A7 /* ViewController.swift */; };
+		0F7FF1EF1A29343B002F83A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FF1ED1A29343B002F83A7 /* Main.storyboard */; };
+		0F7FF1F11A29343B002F83A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FF1F01A29343B002F83A7 /* Images.xcassets */; };
+		0F7FF1F41A29343B002F83A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FF1F21A29343B002F83A7 /* LaunchScreen.xib */; };
+		0F7FF2001A29343B002F83A7 /* Day_22___Custom_NavBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FF1FF1A29343B002F83A7 /* Day_22___Custom_NavBarTests.swift */; };
+		0F7FF20A1A29380E002F83A7 /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FF2091A29380E002F83A7 /* View2Controller.swift */; };
+		0F7FF20C1A293822002F83A7 /* NoStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FF20B1A293822002F83A7 /* NoStoryViewController.swift */; };
+		0F7FF20E1A293B43002F83A7 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FF20D1A293B43002F83A7 /* NavViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F7FF1FA1A29343B002F83A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F7FF1DC1A29343B002F83A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7FF1E31A29343B002F83A7;
+			remoteInfo = "Day 22 - Custom NavBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F7FF1E41A29343B002F83A7 /* Day 22 - Custom NavBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 22 - Custom NavBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7FF1E81A29343B002F83A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7FF1E91A29343B002F83A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F7FF1EB1A29343B002F83A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F7FF1EE1A29343B002F83A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F7FF1F01A29343B002F83A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0F7FF1F31A29343B002F83A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0F7FF1F91A29343B002F83A7 /* Day 22 - Custom NavBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day 22 - Custom NavBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7FF1FE1A29343B002F83A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7FF1FF1A29343B002F83A7 /* Day_22___Custom_NavBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day_22___Custom_NavBarTests.swift"; sourceTree = "<group>"; };
+		0F7FF2091A29380E002F83A7 /* View2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
+		0F7FF20B1A293822002F83A7 /* NoStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoStoryViewController.swift; sourceTree = "<group>"; };
+		0F7FF20D1A293B43002F83A7 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7FF1E11A29343B002F83A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7FF1F61A29343B002F83A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7FF1DB1A29343B002F83A7 = {
+			isa = PBXGroup;
+			children = (
+				0F7FF1E61A29343B002F83A7 /* Day 22 - Custom NavBar */,
+				0F7FF1FC1A29343B002F83A7 /* Day 22 - Custom NavBarTests */,
+				0F7FF1E51A29343B002F83A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F7FF1E51A29343B002F83A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F7FF1E41A29343B002F83A7 /* Day 22 - Custom NavBar.app */,
+				0F7FF1F91A29343B002F83A7 /* Day 22 - Custom NavBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F7FF1E61A29343B002F83A7 /* Day 22 - Custom NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				0F7FF1E91A29343B002F83A7 /* AppDelegate.swift */,
+				0F7FF1EB1A29343B002F83A7 /* ViewController.swift */,
+				0F7FF2091A29380E002F83A7 /* View2Controller.swift */,
+				0F7FF20D1A293B43002F83A7 /* NavViewController.swift */,
+				0F7FF20B1A293822002F83A7 /* NoStoryViewController.swift */,
+				0F7FF1ED1A29343B002F83A7 /* Main.storyboard */,
+				0F7FF1F01A29343B002F83A7 /* Images.xcassets */,
+				0F7FF1F21A29343B002F83A7 /* LaunchScreen.xib */,
+				0F7FF1E71A29343B002F83A7 /* Supporting Files */,
+			);
+			path = "Day 22 - Custom NavBar";
+			sourceTree = "<group>";
+		};
+		0F7FF1E71A29343B002F83A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F7FF1E81A29343B002F83A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F7FF1FC1A29343B002F83A7 /* Day 22 - Custom NavBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7FF1FF1A29343B002F83A7 /* Day_22___Custom_NavBarTests.swift */,
+				0F7FF1FD1A29343B002F83A7 /* Supporting Files */,
+			);
+			path = "Day 22 - Custom NavBarTests";
+			sourceTree = "<group>";
+		};
+		0F7FF1FD1A29343B002F83A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F7FF1FE1A29343B002F83A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F7FF1E31A29343B002F83A7 /* Day 22 - Custom NavBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7FF2031A29343B002F83A7 /* Build configuration list for PBXNativeTarget "Day 22 - Custom NavBar" */;
+			buildPhases = (
+				0F7FF1E01A29343B002F83A7 /* Sources */,
+				0F7FF1E11A29343B002F83A7 /* Frameworks */,
+				0F7FF1E21A29343B002F83A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day 22 - Custom NavBar";
+			productName = "Day 22 - Custom NavBar";
+			productReference = 0F7FF1E41A29343B002F83A7 /* Day 22 - Custom NavBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F7FF1F81A29343B002F83A7 /* Day 22 - Custom NavBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7FF2061A29343B002F83A7 /* Build configuration list for PBXNativeTarget "Day 22 - Custom NavBarTests" */;
+			buildPhases = (
+				0F7FF1F51A29343B002F83A7 /* Sources */,
+				0F7FF1F61A29343B002F83A7 /* Frameworks */,
+				0F7FF1F71A29343B002F83A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F7FF1FB1A29343B002F83A7 /* PBXTargetDependency */,
+			);
+			name = "Day 22 - Custom NavBarTests";
+			productName = "Day 22 - Custom NavBarTests";
+			productReference = 0F7FF1F91A29343B002F83A7 /* Day 22 - Custom NavBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F7FF1DC1A29343B002F83A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Coding For Entrepreneurs";
+				TargetAttributes = {
+					0F7FF1E31A29343B002F83A7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					0F7FF1F81A29343B002F83A7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0F7FF1E31A29343B002F83A7;
+					};
+				};
+			};
+			buildConfigurationList = 0F7FF1DF1A29343B002F83A7 /* Build configuration list for PBXProject "Day 22 - Custom NavBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F7FF1DB1A29343B002F83A7;
+			productRefGroup = 0F7FF1E51A29343B002F83A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F7FF1E31A29343B002F83A7 /* Day 22 - Custom NavBar */,
+				0F7FF1F81A29343B002F83A7 /* Day 22 - Custom NavBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F7FF1E21A29343B002F83A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7FF1EF1A29343B002F83A7 /* Main.storyboard in Resources */,
+				0F7FF1F41A29343B002F83A7 /* LaunchScreen.xib in Resources */,
+				0F7FF1F11A29343B002F83A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7FF1F71A29343B002F83A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7FF1E01A29343B002F83A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7FF1EC1A29343B002F83A7 /* ViewController.swift in Sources */,
+				0F7FF20E1A293B43002F83A7 /* NavViewController.swift in Sources */,
+				0F7FF20A1A29380E002F83A7 /* View2Controller.swift in Sources */,
+				0F7FF1EA1A29343B002F83A7 /* AppDelegate.swift in Sources */,
+				0F7FF20C1A293822002F83A7 /* NoStoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7FF1F51A29343B002F83A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7FF2001A29343B002F83A7 /* Day_22___Custom_NavBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F7FF1FB1A29343B002F83A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F7FF1E31A29343B002F83A7 /* Day 22 - Custom NavBar */;
+			targetProxy = 0F7FF1FA1A29343B002F83A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F7FF1ED1A29343B002F83A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7FF1EE1A29343B002F83A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F7FF1F21A29343B002F83A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7FF1F31A29343B002F83A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F7FF2011A29343B002F83A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F7FF2021A29343B002F83A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F7FF2041A29343B002F83A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day 22 - Custom NavBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F7FF2051A29343B002F83A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day 22 - Custom NavBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F7FF2071A29343B002F83A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Day 22 - Custom NavBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day 22 - Custom NavBar.app/Day 22 - Custom NavBar";
+			};
+			name = Debug;
+		};
+		0F7FF2081A29343B002F83A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Day 22 - Custom NavBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day 22 - Custom NavBar.app/Day 22 - Custom NavBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F7FF1DF1A29343B002F83A7 /* Build configuration list for PBXProject "Day 22 - Custom NavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7FF2011A29343B002F83A7 /* Debug */,
+				0F7FF2021A29343B002F83A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7FF2031A29343B002F83A7 /* Build configuration list for PBXNativeTarget "Day 22 - Custom NavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7FF2041A29343B002F83A7 /* Debug */,
+				0F7FF2051A29343B002F83A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F7FF2061A29343B002F83A7 /* Build configuration list for PBXNativeTarget "Day 22 - Custom NavBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7FF2071A29343B002F83A7 /* Debug */,
+				0F7FF2081A29343B002F83A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F7FF1DC1A29343B002F83A7 /* Project object */;
+}
