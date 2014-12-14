@@ -10,7 +10,7 @@ This repo has been created to enable you to view the related source code for the
 ## How-To
 1. Each file (or set of files) relates to it's respecitve lecture:
 	Day 10: Swift Statements
-	File(s): [Day 10 - Switch Statements.playground](../Day 10 - Switch Statements.playground)
+	File(s): [Day 10 - Switch Statements.playground](./src/Day 10 - Switch Statements.playground)
 	Lecture Link: [Day 10: Swift Statements](https://codingforentrepreneurs.com/projects/30-days-swift/day-10-switch-statements/)
 
 2. If/when you get stuck within the lecture, reference these files to check against your code to ensure accuracy. These files will be the most update files and even more so than the video lecture.
