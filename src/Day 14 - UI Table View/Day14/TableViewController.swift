@@ -49,7 +49,7 @@ class TableViewController: UITableViewController, UIAlertViewDelegate {
         let cell = tableView.dequeueReusableCellWithIdentifier("cellID", forIndexPath: indexPath) as UITableViewCell
         // arrayName[indexNumber] == result
         // Configure the cell...
-        cell.textLabel.text = "\(indexPath.row + 1) - \(items[indexPath.row])"
+        cell.textLabel!.text = "\(indexPath.row + 1) - \(items[indexPath.row])"
         return cell
     }
     
