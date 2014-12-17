@@ -14,7 +14,7 @@
 		<string>https://github.com/codingforentrepreneurs/30-Days-of-Swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>src/Day 25 - Simple - UI Collection View/Simple.xcodeproj</string>
+	<string>src/Day 26 - Simple - MapKit/Simple.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EC10C66D6247266AF6D6383AC7CF933683333BF2</key>
