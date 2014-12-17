@@ -1,0 +1,10 @@
+Baja Fish Tacos
+
+Location: Costa Mesa
+Address: 171 East 17th Street, Costa Mesa, CA 92627
+Lat, Long = 33.635977, 117.920556
+
+
+Location: Santa Ana
+Address: 3664 South Bristol St., Santa Ana, CA 92704
+Lat, Long:  33.698906, -117.885619
