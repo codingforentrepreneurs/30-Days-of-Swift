@@ -16,22 +16,32 @@ class LocationsViewController: UIViewController, UICollectionViewDelegateFlowLay
         super.viewDidLoad()
         self.addresses = LocationInfo().getDefaultAddresses()
         
+        // updated font size for all
         let label = UILabel(frame: CGRectMake(0, 20, self.view.frame.width, 50))
         label.text = "Baja Fish Tacos"
         label.textAlignment = .Center
+        label.font = UIFont.systemFontOfSize(20.0)
         
         let hoursLabel = UILabel(frame: CGRectMake(0, 70, self.view.frame.width, 50))
         hoursLabel.text = LocationInfo().getGeneralHours()
         hoursLabel.textAlignment = .Center
+        hoursLabel.font = UIFont.systemFontOfSize(20.0)
         
-        let phoneLabel = UILabel(frame: CGRectMake(0, 120, self.view.frame.width, 50))
+        // changed from UILabel to UITextView so we can use "dataDetectorTypes"
+        let phoneLabel = UITextView(frame: CGRectMake(0, 120, self.view.frame.width, 50))
         phoneLabel.text = LocationInfo().getPhone()
         phoneLabel.textAlignment = .Center
+        phoneLabel.font = UIFont.systemFontOfSize(20.0)
+        phoneLabel.editable = false
+        phoneLabel.dataDetectorTypes = UIDataDetectorTypes.PhoneNumber
         
-        
-        let websiteLabel = UILabel(frame: CGRectMake(0, 170, self.view.frame.width, 50))
+        // changed from UILabel to UITextView so we can use "dataDetectorTypes"
+        let websiteLabel = UITextView(frame: CGRectMake(0, 170, self.view.frame.width, 50))
         websiteLabel.text = "\(LocationInfo().getWesiteURL())"
         websiteLabel.textAlignment = .Center
+        websiteLabel.font = UIFont.systemFontOfSize(20.0)
+        websiteLabel.editable = false
+        websiteLabel.dataDetectorTypes = UIDataDetectorTypes.Link
         
         self.view.addSubview(label)
         self.view.addSubview(phoneLabel)

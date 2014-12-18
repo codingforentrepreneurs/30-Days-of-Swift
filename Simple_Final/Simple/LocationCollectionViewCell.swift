@@ -24,8 +24,9 @@ class LocationCollectionViewCell: UICollectionViewCell {
         textView.backgroundColor = UIColor(white: 1.0, alpha: 0.3)
         textView.textAlignment = .Left
         textView.scrollEnabled = false
-        textView.userInteractionEnabled = false
+        textView.userInteractionEnabled = true
         textView.editable = false
+        textView.dataDetectorTypes = UIDataDetectorTypes.All
         
         contentView.addSubview(textView)
         

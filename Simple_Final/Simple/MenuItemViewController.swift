@@ -47,6 +47,7 @@ class MenuItemViewController: UIViewController {
         descriptionLabel.text = self.itemDescription
         descriptionLabel.textAlignment = .Center
         
+        
         self.view.addSubview(titleLabel)
         self.view.addSubview(descriptionLabel)
         
