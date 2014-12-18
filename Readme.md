@@ -12,7 +12,7 @@ This repo has been created to enable you to view the related source code for the
 
 	Title: **Day 10: Swift Statements**
 
-	File: [Day 10 - Switch Statements.playground](./src/Day 10 - Switch Statements.playground)
+	File: [10 - Switch Statements.playground](./Lecture_Source/10 - Switch Statements.playground)
 
 	Lecture Link: [Day 10: Swift Statements](https://codingforentrepreneurs.com/projects/30-days-swift/day-10-switch-statements/)
 
