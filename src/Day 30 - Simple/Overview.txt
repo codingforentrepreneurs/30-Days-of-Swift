@@ -1,0 +1,20 @@
+Simple - An iOS App
+
+Theme: Restaurant App
+
+1. Menu
+	- Gallery - 1/2 Done
+	- Listed items
+2. Location
+	- Contact info (address, phone)
+	- Website link
+	- Embedded Map with directions -- DONE
+
+3. Newsletter/Contact Form
+	- WuFoo Forms -- Google
+
+
+4. Custom Class to Handle our Data -- DONE
+
+
+4. Launch Graphics  -- DONE
