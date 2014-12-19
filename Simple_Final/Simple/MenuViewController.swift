@@ -14,6 +14,8 @@ class MenuViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     var menuArrayDict = [[String:AnyObject]]()
     let barTintColor = UIColor.blackColor()
     let tintColor = UIColor.grayColor()
+    let selectedTintColor = UIColor.whiteColor()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +26,10 @@ class MenuViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         self.navigationController?.navigationBar.tintColor = self.tintColor
         self.tabBarController?.tabBar.barTintColor = self.barTintColor
         self.tabBarController?.tabBar.tintColor = self.tintColor
+        
+        // selected image tint color -- color of item when tab bar item is selected
+        self.tabBarController?.tabBar.selectedImageTintColor = self.selectedTintColor
+        
         
         let label = UILabel()
         label.text = "Simple"
